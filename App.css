@@ -1,0 +1,111 @@
+/* Phone Screen Container */
+.phone-screen {
+  width: 100%;
+  max-width: 420px;   /* phone size */
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: linear-gradient(135deg, #0d6efd, #c471f5);
+  color: white;
+  text-align: center;
+}
+
+/* Center content */
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.title {
+  font-size: 1.8rem;
+  font-weight: 800;
+  margin-bottom: 30px;
+  line-height: 2.5rem;
+}
+
+/* Buttons */
+.go-btn, .back-btn, .add-btn {
+  padding: 12px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  margin-top: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.go-btn {
+  background: #1e90ff;
+  color: white;
+}
+
+.go-btn:hover {
+  background: #0062cc;
+}
+
+.back-btn {
+  background: #6c757d;
+  color: white;
+  margin-bottom: 15px;
+}
+
+.back-btn:hover {
+  background: #5a6268;
+}
+
+.add-btn {
+  background: #28a745;
+  color: white;
+  width: 100%;
+}
+
+.add-btn:hover {
+  background: #218838;
+}
+
+/* Footer */
+.footer {
+  padding: 12px;
+  background: rgba(0,0,0,0.3);
+  font-weight: bold;
+  font-size: 0.85rem;
+  line-height: 1.2rem;
+}
+
+/* -------- Admin Page -------- */
+.admin {
+  background: #f9fafb;
+  color: #333;
+  text-align: center;
+}
+
+.admin-title {
+  margin-top: 40px;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.admin-content {
+  margin: 30px auto;
+  padding: 20px;
+  width: 90%;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.admin-content input {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
